@@ -1,0 +1,33 @@
+:root {
+    --base-font: 'Outfit', sans-serif;
+    --content-weight: 400;
+    --header-weight: 700;
+    --white: hsl(+0, 0%, 100%);
+    --light-grey: hsl(212, 45%, 89%);
+    --gray-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--base-font);
+}
+
+body {
+    background-color: var(--gray-blue);
+}
+
+h1 {
+    font-weight: 700;
+}
+p {
+    font-weight: 400;
+}

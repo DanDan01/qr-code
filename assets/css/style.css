@@ -1,20 +1,42 @@
 
+.main-container {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 80vh;
+    background-color: var(--light-grey);
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
-
+    width: 17rem;
     padding: 1rem;
     border-radius: 20px;
 }
 
 .qr-code {
-    width: 30%;
+
 }
 
-.content {
-    width: 30%;
+.qr-code > img {
+    max-width: 100%;
 }
+
+
+.content p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
